@@ -1,0 +1,203 @@
+
+div,span,dl,dt,dd,h5
+{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    line-height:1.2;
+    font-weight:normal;
+}
+.widthnoneheight {
+    width: 0!important;
+    height: 508px;
+}
+a:link,a:visited
+{
+    text-decoration:none;
+    color:#333;
+    cursor:pointer;
+}
+.selector-list{
+    position: relative;
+    width: 245px;
+    height: 35px;
+}
+.elli-text {
+    width: 213px;
+    height: 34px;
+    line-height: 34px;
+    float: left;
+    padding: 0 15px;
+    border: 1px solid #eee;
+    outline: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*typelisttext*/
+.typelisttext
+{
+    position:absolute;
+    min-width:220px;
+    overflow:hidden;
+    padding:0 18px 10px 10px;
+    left:0;
+    border:2px solid #549966;
+    background:#fff;
+    z-index:10;
+    opacity:0;
+    filter:alpha(opacity=0);
+    font-size: 12px;
+    font-family:"Microsoft YaHei";
+}
+.zdx-1
+{
+    z-index:-1!important;
+    height:1px!important;
+}
+.tlt-op100
+{
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.typelisttext .tlt-en-select
+{
+    width:18px;
+    float:left;
+    overflow:hidden;
+    padding-top:40px;
+    margin-right:-6px;
+}
+.typelisttext .tlt-en-select a:link,.typelisttext .tlt-en-select a:visited
+{
+    display:block;
+    width:16px;
+    height:16px;
+    line-height:16px;
+    text-align:center;
+    background:#fff;
+    color:#cccccc;
+    margin-bottom:2px;
+    float:left;
+}
+.typelisttext .tlt-en-select a:hover
+{
+    color:#549966;
+}
+.typelisttext .tlt-en-select a.selected
+{
+    color:#549966;
+}
+.typelisttext .tlt-select-content
+{
+    width:155px;
+    overflow:hidden;
+    float:left;
+    margin-left:18px;
+    min-height:220px;
+    padding-top:10px;
+}
+.typelisttext .tlt-select-content h5
+{
+    display:block;
+    font-weight:normal;
+    font-size:12px;
+    color:#9b9b9b;
+    padding:0 0 9px 0;
+}
+.typelisttext .tlt-select-content .tsc-scroll
+{
+    width:153px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    background:#fff;
+    border:1px solid #cfcfcf;
+}
+.typelisttext .tlt-select-content dl
+{
+    width:100%;
+    overflow:hidden;
+}
+.typelisttext .tlt-select-content dl dt
+{
+    width:94%;
+    padding:10px 0 10px 10px;
+    background:#f7f7f7;
+    color:#000;
+    /*cursor:pointer;*/
+    font-size:12px;
+    line-height: 1;
+    text-align: left;
+}
+.typelisttext .tlt-select-content .unlimited {
+    width:94%;
+    padding:10px 0 10px 10px;
+    color:#000;
+    cursor:pointer;
+    font-size:12px;
+    line-height: 1;
+    text-align: left;
+}
+.typelisttext .tlt-select-content dl dd
+{
+    width:99%;
+    overflow:hidden;
+    font-size:12px;
+    padding-right: 1%;
+}
+.typelisttext .tlt-select-content dl dd a:link,.typelisttext .tlt-select-content dl dd a:visited
+{
+    display:inline-block;
+    width:92%;
+    color:#000000;
+    padding:10px 5px 10px 10px;
+}
+.typelisttext .tlt-select-content dl dd a:hover
+{
+    color:#549966;
+    text-decoration:none;
+}
+.typelisttext .tlt-select-content dl dd.selected a:link,.typelisttext .tlt-select-content dl dd.selected a:visited
+{
+    background:#549966;
+    color:#fff;
+}
+.typelisttext .tlt-select-content-long
+{
+    width:155px;
+}
+.typelisttext .tlt-select-content-long .tsc-scroll
+{
+    width:153px;
+}
+.typelisttext .tlt-select-content-long dl dt
+{
+    width:96%;
+}
+.typelisttext .tlt-select-content-long dl dd a:link,.typelisttext .tlt-select-content-long dl dd a:visited
+{
+    width:94%;
+}
+.typelisttext .tlt-close
+{
+    position:absolute;
+    right:10px;
+    top:5px;
+    font-size:16px;
+    cursor:pointer;
+    z-index:10;
+    color:#999;
+}
+.tlt-none
+{
+    display:none;
+}
+.x-btn-group{ clear:both;}
+.x-new-btn{ margin-left:30px;}
+.x-search .xcx-new-xp{ width:221px; position:relative; margin-bottom: 10px; float:left; }
+.x-search .xcx-new-xp i{padding-right:10px;}
+.x-search .xcx-pp{ width:auto;}
+.x-search input.carpai1{ width:310px;}
+.xcx-pp{ margin:0 50px; float:left;}
+.xcx-pp i{ padding-right:10px;}
+.x-search .xcx-pp .select-prettify-option{height:200px;overflow-y: auto;overflow-x:hidden;}
+/* typelisttext-end */

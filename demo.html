@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <title>Title</title>
+    <link href="css/selector.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!--选择器开始-->
+<div class="selector-list" id="cityLst">
+    <input readonly type="text" class="elli-text"/>
+</div>
+<!--选择器结束-->
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/selector-data.js"></script>
+<script type="text/javascript" src="js/selector.js"></script>
+<script>
+    $(function () {
+        $('#cityLst input').typelisttext({
+            close:"open",//设置是否可以打开选择器,默认为open;close：不可打开，
+            item:3,//选择器的层级，默认为1
+            setTitle:{//设置每个层级的标题
+                title1:"省份/直辖市",
+                title2:"请选择城市",
+                title3:"请选择省/区"
+            }
+        });
+    })
+</script>
+</body>
+</html>
